@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Calculator</title>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+    <h1 id="pageTitle">Welcome to Software Development</h1>
+    <br>
+    <h2>Let's Do Some Math</h2>
+    <p>Input Your First Number:</p>
+    <input class="inputStyle" id="numberOne">
+    <br>
+    <p>Input Your Second Number:</p>
+    <input class="inputStyle" id="numberTwo">
+    <br>
+    <br>
+    <button class="btnStyle" id="additionBtn" onclick="mathAddition()">+</button>
+    <button class="btnStyle" id="substractionBtn" onclick="mathSubtraction()">-</button>
+    <button class="btnStyle" id="multiplicationBtn" onclick="mathMultiply()">x</button>
+    <button class="btnStyle" id="divisonBtn" onclick="mathDivision()">/</button>
+    <p id="correctAnswer">Answer Goes Here</p>
+    <script class="btnStyle" src="script.js"></script>
+</body>
+</html>
